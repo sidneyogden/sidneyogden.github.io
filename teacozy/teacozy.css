@@ -1,0 +1,123 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: conter;
+}
+
+#logo {
+    height: 50px;
+    color: seashell;
+    margin-left: 10px;
+    margin-top: 0px;
+    position: fixed;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+nav {
+    text-align: right;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 0px;
+    padding-left: 0px;
+    text-decoration: underline;
+}
+
+nav li a {
+    color: seashell;
+}
+
+#mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 800px;
+    width: 1200px;
+    margin-top: 69px;
+    margin: 69px auto;
+}
+
+#mission>div {
+    background-color: black;
+    margin-top: 300px;
+    position: absolute;
+    width: 1200px;
+}
+
+#featuredtea > div.featuredtea-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#featuredtea>div.featuredtea-items>div {
+    margin-top: 10px;
+    text-align: center;
+    flex-basis: 30%;
+}
+
+#featuredtea>div.featuredtea-items>div img {
+    width: inherit;
+    height: 200px;
+}
+
+#teamonth {
+    text-align: center;
+    width: 1000px;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+#locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 500px;
+    padding: 1px 0;
+}
+
+/* container for location items */
+#locations>div.location-items {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+#locations>div.location-items>div {
+    background-color: black;
+    margin: 15px 20px 30px 40px;
+    text-align: center;
+    flex-basis: 286px;
+    align-self: center;
+    opacity: 1;
+}
+
+#locations > div.location-header {
+    margin-top: 20px;
+}
+
+#locations h2 {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    font-size: 22px;
+    max-height: 200px;
+    opacity: 0.9;
+}
+footer {
+    text-align: left;
+    margin-left: 20px;
+    opacity: 0.9;
+}
