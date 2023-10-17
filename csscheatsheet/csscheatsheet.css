@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4042753.jpg&f=1&nofb=1");
+  }
+  h1 {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+  }
+  .Selector {
+    border: solid;
+    border-color: silver;
+    border: "10";
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.75;
+    margin: 50px;
+    
+  }
+  .blocks {
+    border: solid;
+    border-color: silver;
+    border: "10";
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.75;
+    margin: 50px;
+  }
+  .dec {
+     border: solid;
+    border-color: silver;
+    border: "10";
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.75;
+    margin: 50px;
+  }
+  .property {
+     border: solid;
+    border-color: silver;
+    border: "10";
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.75;
+    margin: 50px;
+  }
+  .value {
+     border: solid;
+    border-color: silver;
+    border: "10";
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.75;
+    margin: 50px;
+  }
