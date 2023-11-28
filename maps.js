@@ -15,7 +15,7 @@ mymapdata = [{
     name: 'Dallas, TX',
 },
 {
-    coordinates: [-101.833824, 235.2072185] ,
+    coordinates: [-101.833824, 35.2072185] ,
     name: 'Amarillo, TX',
 },
 {
@@ -59,7 +59,7 @@ let map = new mapboxgl.Map({
     // center: [-123.1121, 49.2569],
     zoom: 3,
     style: 'mapbox://styles/mapbox/streets-v12',
-    accessToken: 'pk.eyJ1Ijoic3JvcmdkZW4iLCJhIjoiY2xwZWNkN2tkMTIyMzJqcHBzaXI5d29lbyJ9.XCVx14nL0V5QBJHUmB3ZTg'
+    accessToken: 'pk.eyJ1Ijoic3JvcmdkZW4iLCJhIjoiY2xwaHB3bDR4MDVtcjJxcGR1OTQzdThldiJ9.bPrHStDX8YHTzTIOiD65XQ'
 });
 // Zoom map controls
 // map.addControl(new mapboxgl.NavigationControl());
@@ -76,5 +76,6 @@ for (const marker of mymapdata) {
 
     new mapboxgl.Marker(el)
         .setLngLat(marker.coordinates)
+        .setPopup(new mapboxgl.Popup().setHTML(`<div>${marker.name}<img src="cowmap.png" /></div>`))
         .addTo(map);
 }
