@@ -7,47 +7,47 @@ mymapdata = [{
     name: 'San Antonio, TX',
 },
 {
-    coordinates: [34.3939184, -100.894078],
+    coordinates: [-100.894078, 34.3939184],
     name: 'Turkey, TX' ,
 },
 {
-    coordinates: [32.7762719, -96.7968559],
+    coordinates: [-96.7968559, 32.7762719 ],
     name: 'Dallas, TX',
 },
 {
-    coordinates: [235.2072185, -101.833824],
+    coordinates: [-101.833824, 235.2072185] ,
     name: 'Amarillo, TX',
 },
 {
-    coordinates: [35.24603, -102.4252734],
+    coordinates: [-102.4252734, 35.24603],
     name: 'Vega, TX',
 },
 {
-    coordinates: [34.0536909, -118.242766],
+    coordinates: [-118.242766, 34.0536909],
     name: 'Los Angeles, CA',
 },
 {
-    coordinates: [35.3738712,-119.0194639],
+    coordinates: [-119.0194639, 35.3738712],
     name: 'Bakersfield, CA',
 },
 {
-    coordinates: [35.1552532, -120.672394],
+    coordinates: [-120.672394, 35.1552532],
     name: 'Shell Beach, CA',
 },
 {
-    coordinates: [33.440959, -117.64193],
+    coordinates: [-117.64193, 33.440959],
     name: 'San Clamente, CA',
 },
 {
-    coordinates: [35.1460249, -90.0517638],
+    coordinates: [-90.0517638, 35.1460249],
     name: 'Memphis, TN',
 },
 {
-    coordinates: [19.6472213, -155.9966428],
+    coordinates: [-155.9966428, 19.6472213],
     name: 'Kona, HI',
 },
 {
-    coordinates: [38.8051095, -77.0470229],
+    coordinates: [-77.0470229, 38.8051095],
     name: 'Alexandria, VA', 
 }]
 
@@ -69,7 +69,7 @@ for (const marker of mymapdata) {
     // const width = marker.properties.iconSize[0];
     // const height = marker.properties.iconSize[1];
     el.className = 'marker';
-    el.style.background = `url(cowmap.png) no-repeat`;
+    el.style.background = `url(cowpin.png) no-repeat`;
     el.style.width = '60px';
     el.style.height = '60px';
     el.style.backgroundSize = '100%';
