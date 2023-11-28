@@ -71,7 +71,7 @@ for (const marker of mymapdata) {
     el.className = 'marker';
     el.style.background = `url(cowpin.png) no-repeat`;
     el.style.width = '60px';
-    el.style.height = '60px';
+    el.style.height = '80px';
     el.style.backgroundSize = '100%';
 
     new mapboxgl.Marker(el)
