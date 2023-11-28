@@ -1,0 +1,1 @@
+var _mapboxtoken = 'pk.eyJ1Ijoic3JvcmdkZW4iLCJhIjoiY2xwaHB3bDR4MDVtcjJxcGR1OTQzdThldiJ9.bPrHStDX8YHTzTIOiD65XQ'

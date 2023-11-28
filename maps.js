@@ -1,4 +1,4 @@
-mymapdata = [{
+const mymapdata = [{
     coordinates: [-97.7436995, 30.2711286],
     name: 'Austin, TX',
 }, 
@@ -59,7 +59,7 @@ let map = new mapboxgl.Map({
     // center: [-123.1121, 49.2569],
     zoom: 3,
     style: 'mapbox://styles/mapbox/streets-v12',
-    accessToken: 'pk.eyJ1Ijoic3JvcmdkZW4iLCJhIjoiY2xwaHB3bDR4MDVtcjJxcGR1OTQzdThldiJ9.bPrHStDX8YHTzTIOiD65XQ'
+    accessToken: _mapboxtoken
 });
 // Zoom map controls
 // map.addControl(new mapboxgl.NavigationControl());
